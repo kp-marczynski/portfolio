@@ -50,6 +50,14 @@ export class RepositoryService {
         2021,
         [
           new PortfolioProject(
+            'Employee turnover prediction',
+            '2021',
+            'undraw_business_deal_re_up4u.svg',
+            ['Python', 'XGBoost'],
+            'Predicting employee turnover with XGBoost classificator and regressor using data from StackOverflow Developer Survey',
+            'https://github.com/kp-marczynski/employee-turnover-prediction'
+          ),
+          new PortfolioProject(
             'BookitOne',
             '2021',
             'undraw_Booking_re_gw4j.svg',
@@ -61,7 +69,7 @@ export class RepositoryService {
               'SMTP', 'DKIM', 'DMARC',
               'Paynow'],
             'Embeddable shop solution with calendar and payment integrations.',
-            ''),
+            'https://bookit.one'),
           new PortfolioProject(
             'Offshore Transfer Prices',
             '2021',
