@@ -47,8 +47,17 @@ export class RepositoryService {
   getAllPortfolioProjects(): IProjectsYear[] {
     return [
       new ProjectsYear(
-        2021,
+        2022,
         [
+          new PortfolioProject(
+            'Helium Counter',
+            '2022',
+            'undraw_logistics_x-4-dc.svg',
+            ['Kotlin', 'C++', 'Python'],
+            'Entry for competition in developing the most efficient algorithm for finding capacity of given container structure, ' +
+            'taking into account computational complexity and selected languages efficiency.',
+            'https://github.com/kp-marczynski/helium-counter'
+          ),
           new PortfolioProject(
             'Employee turnover prediction',
             '2021',
@@ -57,6 +66,11 @@ export class RepositoryService {
             'Predicting employee turnover with XGBoost classificator and regressor using data from StackOverflow Developer Survey',
             'https://github.com/kp-marczynski/employee-turnover-prediction'
           ),
+        ]
+      ),
+      new ProjectsYear(
+        2021,
+        [
           new PortfolioProject(
             'BookitOne',
             '2021',
