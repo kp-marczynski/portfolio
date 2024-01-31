@@ -47,7 +47,25 @@ export class RepositoryService {
   getAllPortfolioProjects(): IProjectsYear[] {
     return [
       new ProjectsYear(
-        2022,
+        'ONGOING',
+        [
+          new PortfolioProject(
+            'BookitOne',
+            '2021',
+            'undraw_Booking_re_gw4j.svg',
+            ['Kotlin', 'SpringBoot', 'Event Sourcing', 'Gradle',
+              'React', 'Typescript', 'Tailwind',
+              'MongoDB', 'Javers',
+              'OpenAPI', 'Feign',
+              'Docker', 'Kubernetes', 'DigitalOcean', 'Gitlab CI/CD',
+              'SMTP', 'DKIM', 'DMARC',
+              'Paynow', 'Docker', 'Kubernetes'],
+            'Event-based microservices system specialized for shooting ranges with an embeddable ecommerce solution.',
+            'https://bookit.one'),
+        ]
+      ),
+      new ProjectsYear(
+        '2022',
         [
           new PortfolioProject(
             'Helium Counter',
@@ -69,7 +87,7 @@ export class RepositoryService {
         ]
       ),
       new ProjectsYear(
-        2021,
+        '2021',
         [
           new PortfolioProject(
             'BookitOne',
@@ -108,7 +126,7 @@ export class RepositoryService {
         ]
       ),
       new ProjectsYear(
-        2020,
+        '2020',
         [
           new PortfolioProject(
             'Data Processor',
@@ -164,7 +182,7 @@ export class RepositoryService {
         ]
       ),
       new ProjectsYear(
-        2019,
+        '2019',
         [
           new PortfolioProject('Dietify', '2019', 'undraw_cookie_love_ulvn.svg',
             ['Java', 'Spring Boot', 'Angular', 'TypeScript', 'Netflix OSS', 'PostgreSQL', 'Liquibase', 'Gradle', 'Docker', ' Gitlab CI/CD', 'JHipster', 'UML', 'JUnit', 'Mockito', 'Heroku'],
@@ -235,7 +253,7 @@ export class RepositoryService {
         ]
       ),
       new ProjectsYear(
-        2018,
+        '2018',
         [
           new PortfolioProject('Android Gallery', '2018', 'undraw_organize_photos_d5nr.svg',
             ['Kotlin', 'Android', 'Fresco', 'Gradle'],
@@ -282,7 +300,7 @@ export class RepositoryService {
           )
         ]
       ),
-      new ProjectsYear(2017,
+      new ProjectsYear('2017',
         [
           new PortfolioProject('Assembly',
             '2017',

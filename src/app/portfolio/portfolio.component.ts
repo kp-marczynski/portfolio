@@ -14,7 +14,7 @@ export class PortfolioComponent implements OnInit {
 
   constructor(public linkShortenerService: LinkShortenerService, private repo: RepositoryService) {
     this.projectsYears = repo.getAllPortfolioProjects();
-    this.projectsYears.sort((a, b) => b.year - a.year);
+    // this.projectsYears.sort((a, b) => b.year - a.year);
   }
 
   ngOnInit() {

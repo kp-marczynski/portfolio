@@ -1,13 +1,13 @@
 import {IPortfolioProject} from './portfolio-project.model';
 
 export interface IProjectsYear {
-  year: number;
+  year: string;
   projects: IPortfolioProject[];
 }
 
 export class ProjectsYear implements IProjectsYear {
   constructor(
-    public year: number,
+    public year: string,
     public projects: IPortfolioProject[]) {
   }
 }
